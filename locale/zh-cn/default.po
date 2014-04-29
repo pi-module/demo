@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-demo\n"
-"POT-Creation-Date: 2013-11-10 13:54+0800\n"
-"PO-Revision-Date: 2013-11-10 13:54+0800\n"
+"POT-Creation-Date: 2014-04-29 10:59+0800\n"
+"PO-Revision-Date: 2014-04-29 11:00+0800\n"
 "Last-Translator: Taiwen Jiang <taiwenjiang@tsinghua.org.cn>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -13,12 +13,16 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: C:\\wamp\\www\\master\\usr\\module\\demo\n"
 
-#: C:\wamp\www\master\usr\module\demo/src/Search.php:39
+#: C:\wamp\www\master\usr\module\demo/src/Api/Breadcrumbs.php:29
+msgid "Demo breadcrumbs"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Api/Search.php:47
 #, php-format
 msgid "Test term %d"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/src/Search.php:40
+#: C:\wamp\www\master\usr\module\demo/src/Api/Search.php:48
 #, php-format
 msgid "Some content for term %d"
 msgstr ""
@@ -27,20 +31,20 @@ msgstr ""
 msgid "Test for Demo API"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:28
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:27
 msgid "Demo page"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:166
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:129
 #, php-format
 msgid "<br />No template rendering.<br />Test is now at %s"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:172
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:135
 msgid "Triggered data from Demo module"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:183
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Front/IndexController.php:146
 msgid "Test for user_call event"
 msgstr ""
 
@@ -61,9 +65,8 @@ msgid "Category"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Front/RouteController.php:88
-#, fuzzy
 msgid "Time"
-msgstr "Application Execution Time"
+msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Front/RouteController.php:98
 msgid "Time and category"
@@ -71,6 +74,53 @@ msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Front/RouteController.php:123
 msgid "List"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:31
+msgid "Input"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:39
+msgid "Textarea"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:53
+msgid "Select"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:65
+msgid "File"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:73
+msgid "Disabled"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:84
+msgid "Custom class"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:96
+msgid "Custom width"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:107
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:123
+msgid "Radios"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:141
+msgid "Checkbox"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:149
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:168
+msgid "Checkboxs"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/src/Form/BootstrapForm.php:206
+#: C:\wamp\www\master\usr\module\demo/src/Form/RouteForm.php:86
+msgid "Submit"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Form/RouteForm.php:31
@@ -83,10 +133,6 @@ msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Form/RouteForm.php:51
 msgid "Priority"
-msgstr ""
-
-#: C:\wamp\www\master\usr\module\demo/src/Form/RouteForm.php:86
-msgid "Submit"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Form/Element/Choose.php:24
@@ -139,4 +185,8 @@ msgstr ""
 #: C:\wamp\www\master\usr\module\demo/template/front/index-page.phtml:1
 #: C:\wamp\www\master\usr\module\demo/template/front/index-simple.phtml:1
 msgid "Paginator"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/template/front/page-list.phtml:1
+msgid "Demo Page List"
 msgstr ""

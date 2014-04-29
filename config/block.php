@@ -53,7 +53,7 @@ return array(
         'template'      => 'block-b',
         'config'        => array(
             // select option
-            'third' => array(
+            'first' => array(
                 'title'         => _a('Select it'),
                 'description'   => '',
                 'edit'          => array(
@@ -70,8 +70,26 @@ return array(
                 'value'         => 'one',
             ),
 
+            // Multi_checkbox
+            'second' => array(
+                'title'         => _a('Check applicable'),
+                'description'   => '',
+                'edit'          => array(
+                    'type'          => 'multi_checkbox',
+                    'options'    => array(
+                        'options'   => array(
+                            'check_a' => _a('Check A'),
+                            'check_b' => _a('Check B'),
+                            'check_c' => _a('Check C'),
+                        ),
+                    ),
+                ),
+                'filter'        => 'array',
+                'value'         => 'check_b',
+            ),
+
             // module custom field option
-            'fourth'    => array(
+            'third'    => array(
                 'title'         => _a('Choose it'),
                 'description'   => '',
                 'edit'          => 'Module\Demo\Form\Element\Choose',
@@ -84,7 +102,7 @@ return array(
     // Simple block w/o option, no template
     'block-c'   => array(
         'title'         => _a('Third Block'),
-        'description'   => _a('Block w/o options, no tempalte'),
+        'description'   => _a('Block w/o options, no template'),
         'render'        => array('block', 'random'),
     ),
 );

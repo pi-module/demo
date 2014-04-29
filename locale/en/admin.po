@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pi-demo\n"
-"POT-Creation-Date: 2013-11-10 13:55+0800\n"
-"PO-Revision-Date: 2013-11-10 13:55+0800\n"
+"POT-Creation-Date: 2014-04-29 10:56+0800\n"
+"PO-Revision-Date: 2014-04-29 10:56+0800\n"
 "Last-Translator: Taiwen Jiang <taiwenjiang@tsinghua.org.cn>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -62,30 +62,46 @@ msgid "Select it"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/block.php:63
-#: C:\wamp\www\master\usr\module\demo/config/config.php:59
+#: C:\wamp\www\master\usr\module\demo/config/config.php:60
 msgid "One"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/block.php:64
-#: C:\wamp\www\master\usr\module\demo/config/config.php:60
+#: C:\wamp\www\master\usr\module\demo/config/config.php:61
 msgid "Two"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/block.php:65
-#: C:\wamp\www\master\usr\module\demo/config/config.php:61
+#: C:\wamp\www\master\usr\module\demo/config/config.php:62
 msgid "Three"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/block.php:75
+msgid "Check applicable"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/block.php:81
+msgid "Check A"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/block.php:82
+msgid "Check B"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/block.php:83
+msgid "Check C"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/block.php:93
 msgid "Choose it"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/block.php:86
+#: C:\wamp\www\master\usr\module\demo/config/block.php:104
 msgid "Third Block"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/block.php:87
-msgid "Block w/o options, no tempalte"
+#: C:\wamp\www\master\usr\module\demo/config/block.php:105
+msgid "Block w/o options, no template"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/comment.php:18
@@ -108,19 +124,19 @@ msgstr ""
 msgid "Number of items on one page."
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/config.php:43
+#: C:\wamp\www\master\usr\module\demo/config/config.php:44
 msgid "Test Config"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/config.php:44
+#: C:\wamp\www\master\usr\module\demo/config/config.php:45
 msgid "An example for configuration."
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/config.php:50
+#: C:\wamp\www\master\usr\module\demo/config/config.php:51
 msgid "Add Item"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/config.php:51
+#: C:\wamp\www\master\usr\module\demo/config/config.php:52
 msgid "An example for adding configuration."
 msgstr ""
 
@@ -137,40 +153,48 @@ msgid "Examples and tests for developers."
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/nav.php:14
+msgid "Pages"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:19
 msgid "Test User Call"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:20
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:25
 msgid "Homepage"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:27
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:32
 msgid "Full Paginator"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:33
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:38
 msgid "Lean Paginator"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:39
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:44
 msgid "Subpage one"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:45
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:50
 msgid "Subpage two"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:55
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:60
 msgid "Leaf one"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:69
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:82
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:74
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:88
 msgid "Routes"
 msgstr ""
 
-#: C:\wamp\www\master\usr\module\demo/config/nav.php:76
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:81
 msgid "Sample"
+msgstr ""
+
+#: C:\wamp\www\master\usr\module\demo/config/nav.php:95
+msgid "Form"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/config/page.php:16
@@ -217,6 +241,16 @@ msgstr ""
 msgid "Test template"
 msgstr ""
 
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Admin/FormController.php:31
+#, fuzzy
+msgid "Form submitted successfully."
+msgstr "主题更新成功。"
+
+#: C:\wamp\www\master\usr\module\demo/src/Controller/Admin/FormController.php:46
+#, php-format
+msgid "File uploaded and saved as %s"
+msgstr ""
+
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Admin/RouteController.php:52
 msgid "Route list"
 msgstr ""
@@ -243,8 +277,9 @@ msgid "Add a route"
 msgstr ""
 
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Admin/RouteController.php:148
+#, fuzzy
 msgid "Route added successfully."
-msgstr ""
+msgstr "主题更新成功。"
 
 #: C:\wamp\www\master\usr\module\demo/src/Controller/Admin/RouteController.php:230
 msgid "Route edit"
